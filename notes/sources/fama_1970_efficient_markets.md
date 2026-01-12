@@ -6,13 +6,45 @@
 **Year**: 1970
 **Title**: Efficient Capital Markets: A Review of Theory and Empirical Work
 
-## Abstract
+---
 
-This paper reviews theoretical and empirical literature on the efficient markets model, which posits that **security prices at any time "fully reflect" all available information**.
-The paper examines three levels of market efficiency: **weak** form (prices reflect historical price information), **semi-strong** form (prices reflect all publicly available information), and **strong** form (prices reflect all information, including private information).
-The evidence strongly supports the weak and semi-strong forms, with limited contradictions to the strong form.
+## Summary
+
+### I. Introduction
+### II. The Theory of Efficient Markets
+- **a. Expected Return or "Fair Game" Models**
+- **b. The Submartingale Model**
+- **c. The Random Walk Model**
+- **d. Market Conditions Consistent with Efficiency**
+### III. The Evidence
+#### a. Weak Form Tests of the Efficient Markets Model
+1. Random Walks and Fair Games: A Little Historical Background  
+2. Tests of Market Efficiency in the Random Walk Literature  
+3. Other Tests of Independence in the Random Walk Literature  
+4. Distributional Evidence  
+5. "Fair Game" Models in the Treasury Bill Market  
+6. Tests of a Multiple Security Expected Return Model  
+#### b. Tests of Martingale Models of the Semi-Strong Form
+1. Splits and the Adjustment of Stock Prices to New Information  
+2. Other Studies of Public Announcements  
+#### c. Strong Form Tests of the Efficient Markets Models
+1. Theoretical Framework  
+2. Empirical Results  
+### IV. Summary and Conclusions
 
 --- 
+
+## Introduction
+
+
+
+## Conclusions
+The theory of efficient markets is concerned with whether prices at any point in time "fully reflect" available information. The theory only has empirical content, however, within the context of a more specific model of market equilibrium. We have seen that all of the available empirical literature is implicitly or explicitly based on the assumption that the conditions of market equilibrium can be stated in terms of expected returns. This assumption is the basis of the expected return or "fair game" efficient markets models. 
+**Strong-form** tests are concerned with whether individual investors or groups have monopolistic access to any information relevant for price formation. In the less restrictive **semi-strong-form** tests the information subset of interest includes all obviously publicly available information, while in the **weak form** tests the information subset is just historical price or return sequences.
+
+***Weak form tests of the efficient market model are the most voluminous, and it seems fair to say that the results are strongly in support.*** Though statistically significant evidence for dependence in successive price changes or returns has been found, some of this is consistent with the "fair game" model and the rest does not appear to be sufficient to declare the market inefficient. Indeed, at least ***for price changes or returns covering a day or longer, there isn't much evidence against the "fair game" model's more ambitious offspring, the random walk.***
+
+---
 
 ## Key Definitions
 
