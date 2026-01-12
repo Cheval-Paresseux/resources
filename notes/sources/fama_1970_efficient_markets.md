@@ -10,35 +10,36 @@
 
 ## Summary
 
-### I. Introduction
-### II. The Theory of Efficient Markets
-- **a. Expected Return or "Fair Game" Models**
-- **b. The Submartingale Model**
-- **c. The Random Walk Model**
-- **d. Market Conditions Consistent with Efficiency**
-### III. The Evidence
-#### a. Weak Form Tests of the Efficient Markets Model
-1. Random Walks and Fair Games: A Little Historical Background  
-2. Tests of Market Efficiency in the Random Walk Literature  
-3. Other Tests of Independence in the Random Walk Literature  
-4. Distributional Evidence  
-5. "Fair Game" Models in the Treasury Bill Market  
-6. Tests of a Multiple Security Expected Return Model  
-#### b. Tests of Martingale Models of the Semi-Strong Form
-1. Splits and the Adjustment of Stock Prices to New Information  
-2. Other Studies of Public Announcements  
-#### c. Strong Form Tests of the Efficient Markets Models
-1. Theoretical Framework  
-2. Empirical Results  
-### IV. Summary and Conclusions
+**I. Introduction**
+
+**II. The Theory of Efficient Markets**  
+- Expected Return or "Fair Game" Models  
+- The Submartingale Model  
+- The Random Walk Model  
+- Market Conditions Consistent with Efficiency
+  
+**III. The Evidence**  
+- Weak Form Tests of the Efficient Markets Model  
+  1. Random Walks and Fair Games: A Little Historical Background  
+  2. Tests of Market Efficiency in the Random Walk Literature  
+  3. Other Tests of Independence in the Random Walk Literature  
+  4. Distributional Evidence  
+  5. "Fair Game" Models in the Treasury Bill Market  
+  6. Tests of a Multiple Security Expected Return Model
+     
+- Tests of Martingale Models of the Semi-Strong Form  
+  1. Splits and the Adjustment of Stock Prices to New Information  
+  2. Other Studies of Public Announcements
+     
+- Strong Form Tests of the Efficient Markets Models  
+  1. Theoretical Framework  
+  2. Empirical Results
+     
+**IV. Summary and Conclusions**
 
 --- 
 
-## Introduction
-
-
-
-## Conclusions
+## Conclusion
 The theory of efficient markets is concerned with whether prices at any point in time "fully reflect" available information. The theory only has empirical content, however, within the context of a more specific model of market equilibrium. We have seen that all of the available empirical literature is implicitly or explicitly based on the assumption that the conditions of market equilibrium can be stated in terms of expected returns. This assumption is the basis of the expected return or "fair game" efficient markets models. 
 **Strong-form** tests are concerned with whether individual investors or groups have monopolistic access to any information relevant for price formation. In the less restrictive **semi-strong-form** tests the information subset of interest includes all obviously publicly available information, while in the **weak form** tests the information subset is just historical price or return sequences.
 
@@ -48,76 +49,24 @@ The theory of efficient markets is concerned with whether prices at any point in
 
 ## Key Definitions
 
-**Efficient Market**: A market in which prices always "fully reflect" available information. The primary role is allocation of ownership of the economy's capital stock, where prices provide accurate signals for resource allocation.
+**Efficient Market**: The primary role of the capital market is allocation of ownership of the economy's capital stock. In general terms, the ideal is a market in which prices provide accurate signals for resource allocation: that is, a market in which firms can make production-investment decisions, and investors can choose among the securities that represent ownership of firms' activities under the assumption that security prices at any time "fully reflect" all available information. A market in which prices always "fully reflect" available information is called "efficient". 
 
 **Three Forms of Market Efficiency**:
 1. **Weak Form**: Information subset includes only historical prices
 2. **Semi-Strong Form**: Information subset includes all obviously publicly available information
 3. **Strong Form**: Information subset includes all information relevant for price formation, including monopolistic information
 
+**Fair Game / Expected Return Models**: Most of the available work is based only on the assumption that the conditions of market equilibrium can (somehow) be stated in terms of expected returns. In general terms, like the two parameter model (Sharpe) such theories would posit that conditional on some relevant information set, the equilibrium expected return on a security is a function of its "risk". And differetn theories would differ primarily in how "risk" is defined. 
+1. All members of the class of such "expected return theories" can, however, be described notationally as : E(p̃ⱼ,ₜ₊₁|Φₜ) = [1 + E(r̃ⱼ,ₜ₊₁|Φₜ)]pⱼₜ . 
+2. Submartingale model : special case where E(p̃ⱼ,ₜ₊₁|Φₜ) ≥ pⱼₜ (expected returns are non-negative). It implies that trading systems based only on information in Φₜ cannot have expected profits in excess of equilibrium expected returns (if you short the security then, by definition, you have negative expected return).
+3. Random walk model : successive price changes are independent and identically distributed : f(r̃ⱼ,ₜ₊₁|Φₜ) = f(r̃ⱼ,ₜ₊₁) . The conditional and marginal probability distributions of an independent random variable are identical. In addition, the density function f must be the same for all t.
+
+---
+
 ## Important Results/Ideas
 
-### The Expected Returns (Fair Game) Model
-* Market equilibrium conditions can be stated in terms of expected returns
-* For security j: E(p̃ⱼ,ₜ₊₁|Φₜ) = [1 + E(r̃ⱼ,ₜ₊₁|Φₜ)]pⱼₜ
-* Implies that trading systems based only on information in Φₜ cannot have expected profits in excess of equilibrium expected returns
-* The excess return zⱼ,ₜ₊₁ = r̃ⱼ,ₜ₊₁ - E(r̃ⱼ,ₜ₊₁|Φₜ) is a "fair game": E(zⱼ,ₜ₊₁|Φₜ) = 0
-* Serial covariances of a fair game variable are zero (linearly independent observations)
-
-### The Submartingale Model
-* Special case where E(p̃ⱼ,ₜ₊₁|Φₜ) ≥ pⱼₜ (expected returns are non-negative)
-* Implies that "one security and cash" mechanical trading rules cannot outperform buy-and-hold strategy
-* Important for testing profitability of trading systems
-
-### The Random Walk Model
-* Strongest assumption: successive returns are independent and identically distributed
-* f(r̃ⱼ,ₜ₊₁|Φₜ) = f(r̃ⱼ,ₜ₊₁)
-* Goes beyond fair game model by requiring entire distribution to be independent of past information
-* Best viewed as special case arising when environmental conditions cause return distributions to repeat through time
-
-### Weak Form Test Results
-* **Serial Correlation Tests**: Absolute correlations always close to zero (Table 1 shows coefficients rarely exceeding 0.10)
-* **Filter Tests** (Alexander; Fama-Blume): Very small filters (≤1.5%) show slight profitability but cannot overcome even minimum transaction costs
-* **Evidence of slight positive dependence** in daily returns, but insufficient for profitable trading after costs
-* **Random walk largely supported** for returns covering a day or longer
-* **Niederhoffer-Osborne findings**: Excessive reversals in transaction-to-transaction prices due to market structure (limit orders), not exploitable for profits
-
-### Semi-Strong Form Test Results
-* **Stock Splits** (FFJR): Market correctly anticipates dividend implications; prices adjust by split month with no subsequent drift
-* **Earnings Announcements** (Ball-Brown): 85-90% of information anticipated before announcement month
-* **Discount Rate Changes** (Waud): Small announcement effects (<0.5%), with some anticipation
-* **Secondary Offerings** (Scholes): Price declines of 1-2% reflect negative information, not selling pressure; adjustment complete by offering date
-* **Conclusion**: Prices efficiently adjust to public information
-
-### Strong Form Test Results
-* **Mutual Fund Performance** (Jensen): 115 funds studied 1955-64
-  - 89 of 115 funds underperformed market line (net of all costs)
-  - Average underperformance of 14.6% over 10 years
-  - Even gross of expenses, average deviation only 0.09%
-  - No evidence of persistent superior performance by individual funds
-  - Conclusion: Fund managers have no special information or forecasting ability
-* **Documented Exceptions**:
-  - NYSE specialists profit from monopolistic access to limit order book
-  - Corporate insiders have monopolistic access to firm information
-* **General Conclusion**: Only specialists and insiders show monopolistic information access; no evidence for broader investment community
-
-### Market Model Results
-* rⱼ,ₜ₊₁ = αⱼ + βⱼrₘ,ₜ₊₁ + uⱼ,ₜ₊₁ is well-specified
-* Parameters stable over time (Blume: post-WWII period)
-* Consistent with Sharpe-Lintner CAPM framework
-* King: ~50% of individual stock variance explained by market factor, ~10% by industry factors
-
-### Distributional Evidence
-* Mandelbrot-Fama: Returns better described by non-normal stable distributions (fat tails) than normal distribution
-* Important for statistical testing procedures and interpretation
-* Roll: Treasury Bills also exhibit non-normal stable distributions
 
 ## Quotes
 
-> "In an efficient market, prices 'fully reflect' available information in the sense that the process of price formation must be specified such that equilibrium expected returns are formed on the basis of available information."
-
-> "The evidence in support of the efficient markets model is extensive, and (somewhat uniquely in economics) contradictory evidence is sparse."
-
-> "For the purposes of most investors the efficient markets model seems a good first (and second) approximation to reality."
 
 ## Personal Notes
